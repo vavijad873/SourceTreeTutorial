@@ -10,5 +10,10 @@ namespace Hello_World
         {
             return left + right;
         }
+        public int Substract(int left, int right)
+        {
+            return left - right;
+        }
+
     }
 }
