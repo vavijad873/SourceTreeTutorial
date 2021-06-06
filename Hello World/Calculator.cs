@@ -24,5 +24,9 @@ namespace Hello_World
                 return 0;
             return left / right;
         }
+        public int Modulus(int left, int right)
+        {
+            return left % right;
+        }
     }
 }
