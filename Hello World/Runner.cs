@@ -20,6 +20,7 @@ namespace Hello_World
             Console.WriteLine(sum);
 
             Console.WriteLine($"The difference between 5 and 7 is {calculator.Substract(5, 7)}");
+            Console.WriteLine($"The quotient of 20 and 4 is {calculator.Division(20,4)}");
 
         }
     }
