@@ -14,15 +14,18 @@ namespace Hello_World
         {
             return left - right;
         }
-        public int Multiply(int left, int right)
-        {
-            return left * right;
-        }
+
+<<<<<<< Updated upstream
         public int Division(int left, int right)
         {
             if (right == 0)
                 return 0;
             return left / right;
+=======
+        public int Multiply(int left, int right)
+        {
+            return left * right;
+>>>>>>> Stashed changes
         }
     }
 }
