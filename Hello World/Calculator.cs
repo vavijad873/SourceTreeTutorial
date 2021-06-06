@@ -28,5 +28,9 @@ namespace Hello_World
         {
             return left % right;
         }
+        public double Division(double left, double right)
+        {
+            return left / right;
+        }
     }
 }
