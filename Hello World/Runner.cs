@@ -14,6 +14,7 @@ namespace Hello_World
             Console.WriteLine("Greeting from user 2");
             Console.WriteLine("This change was made by user 2");
             Console.WriteLine("User 1 made this change");
+            // a commit test
 
             var calculator = new Calculator();
             int sum = calculator.Add(5, 7);
