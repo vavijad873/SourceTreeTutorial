@@ -12,8 +12,11 @@ namespace Hello_World
             Console.WriteLine("This is line 2");
             Console.WriteLine("This is line 3");
             Console.WriteLine("Greeting from user 2");
-            Console.WriteLine("This change was made by user 2");
+<<<<<<< HEAD
             Console.WriteLine("User 1 made this change");
+=======
+            Console.WriteLine("This change was made by user 2");
+>>>>>>> 3c8413f2a0afd71b40242c629f99c80e3a70c0cb
 
             var calculator = new Calculator();
             int sum = calculator.Add(5, 7);
